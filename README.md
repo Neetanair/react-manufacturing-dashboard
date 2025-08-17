@@ -1,12 +1,21 @@
-# React + Vite
+# Manufacturing Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time manufacturing monitoring dashboard.  
+Built with **React, Tailwind CSS, Vite, Leaflet, and Recharts**.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- Interactive factory map (Leaflet + OpenStreetMap)
+- Key performance indicators (Output, Uptime, Defects, Energy)
+- Alerts bar for factories underperforming
+- Real-time simulated updates
+- Responsive Tailwind design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React (Vite)
+- Tailwind CSS
+- Recharts (Data visualization)
+- Leaflet (Maps)
+- JSON Server (Mock API)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm install
+npm run dev
